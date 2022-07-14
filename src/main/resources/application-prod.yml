@@ -1,0 +1,14 @@
+server:
+  port: 3000
+
+spring:
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://database-1.cxggdv96v8hn.ap-northeast-2.rds.amazonaws.com/coupangeats?autoReconnect=true
+    username: master
+    password: master456123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+connectPath : images
+resourcePath : file:///var/www/coupangeats_server_core_dona/static/

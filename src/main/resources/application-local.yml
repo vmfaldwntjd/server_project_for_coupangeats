@@ -1,0 +1,13 @@
+server:
+  port: 9000
+
+spring:
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://rising-test.cq5b4hf74q5u.ap-northeast-2.rds.amazonaws.com/coupangeats?autoReconnect=true&serverTimezone=UTC
+    username: admin
+    password: xptmxmdkagh
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+connectPath : images
+resourcePath : file:///var/www/coupangeats_server_core_dona/static/
